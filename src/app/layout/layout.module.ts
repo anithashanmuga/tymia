@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
 	{ path: '', component: LayoutComponent, pathMatch: 'full' },
@@ -29,7 +30,8 @@ export const routes: Routes = [
 		HeaderComponent,
 		HomeComponent,
 		AboutComponent,
-		ServicesComponent
+		ServicesComponent,
+		ContactComponent
 
 	],
 	exports: [
