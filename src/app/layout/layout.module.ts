@@ -12,9 +12,11 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
 
 export const routes: Routes = [
 	{ path: '', component: LayoutComponent, pathMatch: 'full' },
+	{path: 'content', component: ContentComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -33,7 +35,8 @@ export const routes: Routes = [
 		AboutComponent,
 		ServicesComponent,
 		ContactComponent,
-		FooterComponent
+		FooterComponent,
+		ContentComponent
 
 	],
 	exports: [
