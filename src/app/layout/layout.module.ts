@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 export const routes: Routes = [
 	{ path: '', component: LayoutComponent, pathMatch: 'full' },
@@ -31,7 +32,8 @@ export const routes: Routes = [
 		HomeComponent,
 		AboutComponent,
 		ServicesComponent,
-		ContactComponent
+		ContactComponent,
+		FooterComponent
 
 	],
 	exports: [
