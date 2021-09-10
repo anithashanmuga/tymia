@@ -217,7 +217,7 @@ section {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+/* .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -228,17 +228,17 @@ section {
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
-}
+} */
 
-.navbar a i, .navbar a:focus i {
+/* .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
-}
+} */
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+/* .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #4154f1;
-}
+} */
 
 .navbar .getstarted {
   background: #4154f1;
@@ -248,10 +248,10 @@ section {
   color: #fff;
 }
 
-.navbar .getstarted:hover {
+/* .navbar .getstarted:hover {
   color: #fff;
   background: #5969f3;
-}
+} */
 
 .navbar .dropdown ul {
   display: block;
