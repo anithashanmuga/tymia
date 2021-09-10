@@ -7,6 +7,8 @@ import { Component, OnInit } from "@angular/core";
 })
 
 export class HomeComponent implements OnInit {
+
+  
   
   constructor() { 
 
@@ -14,5 +16,17 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
+
   }
 }
+
+
+
+
+
+
+// Next/previous controls
+
+
+// Thumbnail image controls
+
